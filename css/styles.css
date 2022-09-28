@@ -1,0 +1,297 @@
+@font-face {
+src: url("fonts/Yeseva+One.ttf");
+font-family:"Yeseva+One";
+}
+
+body {
+background-color: black;
+margin: 0 auto;
+box-sizing: border-box;
+} 
+
+.slider_demonstration {
+background-color: black;
+}
+
+.btn-prev { 
+position: absolute;
+height: 0px;
+right: 117px;
+bottom: 24px;
+color: white;
+cursor: pointer;
+}
+
+.btn-next {
+position: absolute;
+height: 0px;
+bottom: 24px;
+left: 106px;
+color: white;
+cursor: pointer;
+}
+
+.slider-wrapper {
+position: absolute;
+display: flex;  
+width: 688px;/*53%;*/
+left: 511px;
+top: 213px;	
+}
+
+.slideshow-container {
+position: relative;
+width: 100%;
+height: 479px;
+top: 0px;
+box-shadow: 0px 2px 23px 20px #e1e1eb1f;
+border-radius: 17px;
+}
+
+.mySlides {
+display:none;
+width: 100%;
+height: 100%;
+background-size: cover;
+background-position: center center;
+-webkit-animation-name: slowing;
+-webkit-animation-duration: 1.5s;
+animation-name: slowing;
+animation-duration: 1.5s;
+}
+
+@keyframes slowing {
+from {opacity: .5} 
+to {opacity: 1}
+}
+
+.img {
+width: 100%;
+height: 100%;
+vertical-align: middle;
+}
+
+.filter_img {
+width: 100%;
+height: 100%;
+filter: brightness(0.8);/*drop-shadow(0px 20px 10px rgba(0, 0, 0, 0.15));*/
+}
+
+.dots-wrapper {
+position: absolute;
+display: flex;
+justify-content: space-between;
+width: 85px;
+top: 471px;
+right: 979px;   
+}
+
+.dot.active {
+background-color: white;    
+}
+
+.dot {
+width: 12px;
+height: 12px;
+border-radius: 50%;
+margin-right: 10px;
+background-color: #999999; 
+cursor: pointer;  
+}
+
+.slide-text {
+position: absolute;
+width: 189px;
+bottom: 531px;
+color: #E3B873;
+
+font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+text-transform: uppercase;
+}
+
+.mini-text1-slide {
+position: absolute;
+width: 103px;
+top: 244px;
+right: 1029px;
+    
+font-family: 'Nunito Sans', Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 21px;
+color: #FFFFFF;	
+}
+
+.mini-text2-slide {
+position: absolute;
+width: 103px;
+bottom: 68px;
+right: 1027px;
+
+font-family: 'Nunito Sans', Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 21px;
+color: #FFFFFF;	
+}
+
+.mini-text3-slide {
+position: absolute;
+width: 103px;
+bottom: 185px;
+right: 836px;
+
+font-family: 'Nunito Sans', Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 21px;
+color: #fff;
+}
+
+.line {
+position: relative;
+display: inline-block;
+width: 188px;
+height: 1px;
+right: 0px;
+bottom: 534px;
+background-color: #E3B873; 
+}
+
+.numbertext {
+position: absolute;
+top: 5px;
+left: 9px;
+color: #efebe5;
+z-index: 1;
+}
+
+.menu-list {
+position: absolute;
+width: 766px;
+height: 16.32px;
+top: 124px;
+left: 471px;
+margin: 0 auto;
+}
+
+.list {
+display: flex;
+justify-content: space-between;
+
+font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 29px;
+list-style-type: none; 
+text-transform: uppercase;
+color: rgba(255, 255, 255, 0.3);
+}
+
+.list_item {
+padding-right: 82px;
+}
+
+.container-text {
+position: absolute;
+display: flex;
+flex-direction: column;
+top: 192px;
+left: 67px;
+}
+
+.h2 {
+width: 147px;
+height: 66px;
+bottom: 10px;
+
+font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+line-height: 37px;
+letter-spacing: -0.07em;
+text-transform: uppercase;
+color: #E3B873;
+}
+
+.rectangle {
+position: absolute;
+width: 92px;
+height: 2px;
+top: 76px;
+left: 147px;
+}
+
+.text-p1 {
+width: 393px;
+height: 86px;
+bottom: 13px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 25px;
+color: #FFFFFF;
+}
+
+.container-mini-text {
+display: flex;
+bottom: 33px;
+}
+
+.mini-text-group {
+display: flex;
+flex-direction: column;
+}
+
+.h3 {
+width: 192px; 
+height: 22px;  
+
+font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+text-transform: uppercase;
+color: #E3B873;
+}
+
+.mini-text-p {
+width: 103px;
+height: 24px;
+bottom: 25px;
+
+font-family: 'Nunito Sans', Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 21px;
+color: #FFFFFF;
+}
+
+.mini-text-group2 {
+display: flex;
+flex-direction: column;
+}
+
+.span:hover, .text1:hover,
+.slide-text:hover {
+border-bottom: 2px solid #2798f1;
+}
+
+.rectangle:hover, .line:hover {
+border: 2px solid #2798f1;
+}
+/*Можно добавить .dot:hover, но будут дергаться кнопки*/
+
+@media screen and (min-width: 375) {}
