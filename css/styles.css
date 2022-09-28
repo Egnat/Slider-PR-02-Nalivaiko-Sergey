@@ -192,7 +192,8 @@ font-size: 14px;
 line-height: 29px;
 list-style-type: none; 
 text-transform: uppercase;
-color: rgba(255, 255, 255, 0.3);
+color:#ffffff24;
+/*color: rgba(255, 255, 255, 0.3);*/
 }
 
 .list_item {
