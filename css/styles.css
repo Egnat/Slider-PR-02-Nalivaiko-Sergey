@@ -101,7 +101,7 @@ cursor: pointer;
 
 .slide-text {
 position: absolute;
-width: 189px;
+width: 189p;
 bottom: 531px;
 color: #E3B873;
 
@@ -192,8 +192,8 @@ font-size: 14px;
 line-height: 29px;
 list-style-type: none; 
 text-transform: uppercase;
-color:#ffffff24;
-/*color: rgba(255, 255, 255, 0.3);*/
+/*color:#ffffff24;*/
+color: rgba(255, 255, 255, 0.3);
 }
 
 .list_item {
